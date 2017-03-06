@@ -1,0 +1,21 @@
+{
+  "name": "lesson07",
+  "description": "A Place where there are tons of classes written in typescript",
+  "main": "",
+  "authors": [
+    "Bryan Wood <whenidev@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/itanex/TypeScriptClasses",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.3"
+  }
+}

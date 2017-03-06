@@ -1,0 +1,24 @@
+{
+  "name": "lesson07",
+  "version": "1.0.0",
+  "description": "A Place where there are tons of classes written in typescript",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itanex/TypeScriptClasses.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itanex/TypeScriptClasses/issues"
+  },
+  "private": true,
+  "homepage": "https://github.com/itanex/TypeScriptClasses#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
