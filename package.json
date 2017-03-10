@@ -1,17 +1,18 @@
 {
-  "name": "lesson07",
+  "name": "typescriptclasstemplate",
   "version": "1.0.0",
-  "description": "A Place where there are tons of classes written in typescript",
-  "main": "index.js",
+  "description": "template project for typescript and angular",
+  "main": "",
   "scripts": {
+    "tsc:w": "tsc -w",
     "lite": "lite-server",
-    "start": "lite"
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/itanex/TypeScriptClasses.git"
   },
-  "author": "",
+  "author": "Bryan Wood <whenidev@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/itanex/TypeScriptClasses/issues"
@@ -19,6 +20,7 @@
   "private": true,
   "homepage": "https://github.com/itanex/TypeScriptClasses#readme",
   "devDependencies": {
-    "lite-server": "^2.2.2"
+    "concurrently": "3.4.0",
+    "lite-server": "2.2.2"
   }
 }

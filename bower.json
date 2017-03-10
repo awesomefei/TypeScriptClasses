@@ -1,6 +1,6 @@
 {
-  "name": "lesson07",
-  "description": "A Place where there are tons of classes written in typescript",
+  "name": "typescriptclasstemplate",
+  "description": "template project for typescript and angular",
   "main": "",
   "authors": [
     "Bryan Wood <whenidev@gmail.com>"
@@ -15,7 +15,7 @@
     "test",
     "tests"
   ],
+  "private": true,
   "dependencies": {
-    "requirejs": "^2.3.3"
   }
 }
