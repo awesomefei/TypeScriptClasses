@@ -17,5 +17,6 @@
   ],
   "private": true,
   "dependencies": {
+    "angular": "^1.6.3"
   }
 }
